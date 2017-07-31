@@ -1,0 +1,5 @@
+{
+    "RO": { "propertyName": "read-only" },
+    "FA": { "propertyName": "financial-account" },
+    "OF": { "propertyName": "only-friend" }
+}
