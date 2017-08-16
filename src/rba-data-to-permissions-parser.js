@@ -11,8 +11,13 @@ function tupleToActionPermit(tuple) {
 module.exports = function (data, textParser) {
   return _.map(data.roles, function toPermission(role) {
     var permissions = _.chain(role.values)
-      .map(textParser)
       .zip(data.actions)
+      .filter(function (el) {
+        return !_.isNull(el[0])
+      })
+      .map(function (el) {
+        return [textParser(el[0]), el[1]];
+      })
       .map(tupleToActionPermit)
       .value();
 
