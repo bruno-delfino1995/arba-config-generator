@@ -13,7 +13,7 @@ module.exports = function (data, textParser) {
     var permissions = _.chain(role.values)
       .zip(data.actions)
       .filter(function (el) {
-        return !_.isNull(el[0])
+        return !_.isNull(el[0]);
       })
       .map(function (el) {
         return [textParser(el[0]), el[1]];

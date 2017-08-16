@@ -1,0 +1,13 @@
+language: node_js
+install: npm install
+script: npm test
+cache:
+  directories:
+  - node_modules
+deploy:
+  provider: npm
+  email: bruno-delfino1995@gmail.com
+  api_key:
+    secure: VcqXQuqTV/0hPwl1xhUCyjFoVvMkheTt+gb7rpBj3v8Pg6eBtURAZZ4a+6yCMcL8I92XBPNM9hfGTj1neQK7vIXAj5ImNYt48cLfxq0/llmV/L0kJwVU0pxCHEOY6DCD1jy6ylFO+eQFKqJ9dERqZh82kWYKTahHQHLi2b4LXFAzDIELYy3fWo3WFX0Q1zSGbeoCC/zgX3toQNHIi+8V+GIjDMa/8D0JKz5hyinR7UH3pMKH/bT08fHKQBFogG5jnfF4R8D46l4qgas2zwG4hrY5lbzCSKTXuVVuZ+oh86UUdEaOhIjDTrm0BCybmTXSr3Y+5jt/t0n3yQTNj4ya772bdBjgJE4/qhBpM8YF/5iwweFtdmB5zAq3xQigu0TlG3UmfHYxb84yzECFNHBnMB8yNCqeI683HyreMdSGeERdHX/X5bDko4EyUBzzGztKxX+3XVbaRYfT6/eZUTDYdn5Ts0cC9rq5tnXpuDXtASnU5eCqfa5ZQAEsNAdqii0VNjuIsami3ilSFfZ0tCUoG/y9zegHiNPswHzEzMYr62Z/3xc/WegnGQB/H9ch4DSvfOsRSn6eiKT8zpD2/HEvl62zfAAl2SkNVOAfWJgKMHxSob1oEdCeRDhClFsHyVisJ0VneCQnpHDKybBtOECL7TtBETTMg/n1jRlQjvEr0GU=
+  on:
+    tags: true
