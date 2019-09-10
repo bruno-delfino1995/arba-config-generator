@@ -1,6 +1,6 @@
 {
   "name": "arba-config-generator",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Generate configuration for Action-Role Based Authorization through Excel files",
   "main": "src/index.js",
   "keywords": [
