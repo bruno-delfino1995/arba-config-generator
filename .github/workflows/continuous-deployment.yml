@@ -1,5 +1,10 @@
-name: Continuous Integration
-on: [push]
+name: Continuous Deployment
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - v*
 
 jobs:
   test:
