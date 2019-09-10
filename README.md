@@ -1,4 +1,8 @@
-# Action-Role Based Authorization [![Build Status](https://travis-ci.org/bruno-delfino1995/arba-config-generator.svg?branch=master)](https://travis-ci.org/bruno-delfino1995/arba-config-generator)
+# Action-Role Based Authorization
+
+[![Integration Status](https://github.com/bruno-delfino1995/arba-config-generator/workflows/CI/badge.svg)](https://github.com/bruno-delfino1995/arba-config-generator/actions) [![Deployment Status](https://github.com/bruno-delfino1995/arba-config-generator/workflows/CD/badge.svg)](https://github.com/bruno-delfino1995/arba-config-generator/actions)
+
+> Integrate software and security smoothly
 
 ## LICENSE
 
